@@ -11,6 +11,7 @@ You have app router project , you have products which are identified by id and y
 How to do it i app router ?
 Is it different for server component from client componet ?
 Is it easier in app router relative to pages router ?
+caching is not handled in this repo
 
 <h2>Installation</h2>
 ....

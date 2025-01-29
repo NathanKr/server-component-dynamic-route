@@ -7,7 +7,10 @@
 ....
 
 <h2>Motivation</h2>
-....
+You have app router project , you have products which are identified by id and you want to have details.
+How to do it i app router ?
+Is it different for server component from client componet ?
+Is it easier in app router relative to pages router ?
 
 <h2>Installation</h2>
 ....

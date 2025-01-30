@@ -5,3 +5,7 @@ export interface IComment{
     email : string;
     body : string;	
 }
+
+export interface IError {
+    message: string;
+  }

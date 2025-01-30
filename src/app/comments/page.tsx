@@ -4,7 +4,7 @@ import { IComment } from "@/types/types";
 import axios from "axios";
 import Link from "next/link";
 
-// --- server component
+// --- page Comments : server component
 export default async function Comments() {
   const res = await axios.get<IComment[]>(COMMENTS_URL);
   const comments: IComment[] = res.data;

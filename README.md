@@ -5,7 +5,7 @@
 <p>This is a Next.js App Router that uses server components to display comments and comment details. Both are fetched from the JSONPlaceholder API. The comment details page is accessed via dynamic routing. The <code>error.tsx</code> file handles error states, and the <code>loading.tsx</code> file manages loading states.</p>
 
 <h2>Motivation</h2>
-<p>If you have an app router project with items that include data and an ID, and you want to access the details of an item, this repository will answer the following questions:</p>
+<p>If you have an app router project with items that include data and an id, and you want to access the details of an item, this repository will answer the following questions:</p>
 <ul>
   <li>How do you do it using the app router?</li>
   <li>Is it different for server components compared to client components?</li>
@@ -43,7 +43,7 @@ npm run dev
 <img src='./figs/relevant-folder-tree.png' alt='Folder Tree Diagram' />
 
 <h3>Navigate to Details Page</h3>
-<p>Navigate from the Comments page to the comment details via its ID:</p>
+<p>Navigate from the Comments page to the comment details via its id:</p>
 
 ```ts
  const res = await axios.get<IComment[]>(COMMENTS_URL);
@@ -58,7 +58,7 @@ npm run dev
 ```
 
 <h3>Consume Details Comment ID</h3> 
-<p>Consume the ID via the params. Notice that the <code>id</code> in <code>IProps</code> MUST be the same as in the folder <code>[id]</code>. <code>CommentDetails</code> is a server component, so you can retrieve params very elegantly using <code>await</code>:
+<p>Consume the id via the params. Notice that the <code>id</code> in <code>IProps</code> MUST be the same as in the folder <code>[id]</code>. <code>CommentDetails</code> is a server component, so you can retrieve params very elegantly using <code>await</code>:
 </p>
 
 

@@ -2,7 +2,7 @@
 <p>Next.js Server Components with Dynamic Routing</p>
 
 <h2>Project Description</h2>
-<div>This is a Next.js App Router that uses server components to display comments and comment details. Both are fetched from the JSONPlaceholder API. The comment details page is accessed via dynamic routing. The <code>error.tsx</code> file handles error states, and the <code>loading.tsx</code> file manages loading states.</div>
+<p>This is a Next.js App Router that uses server components to display comments and comment details. Both are fetched from the JSONPlaceholder API. The comment details page is accessed via dynamic routing. The <code>error.tsx</code> file handles error states, and the <code>loading.tsx</code> file manages loading states.</p>
 
 <h2>Motivation</h2>
 <p>If you have an app router project with items that include data and an id, and you want to access the details of an item, this repository will answer the following questions:</p>
